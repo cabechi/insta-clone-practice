@@ -44,21 +44,24 @@ group :development do
   gem 'listen', '>= 3.0.5', '< 3.2'
   gem 'web-console', '>= 3.3.0'
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
+  gem 'annotate'
+  gem 'better_errors'
+  gem 'binding_of_caller'
+  gem 'pry-byebug'
+  gem 'pry-rails'
   gem 'rubocop'
   gem 'rubocop-rails'
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
-  gem 'annotate'
-  gem "better_errors"
-  gem "binding_of_caller"
-  gem 'pry-byebug'
-  gem 'pry-rails'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
+gem 'font-awesome-sass', '~> 5.4.1'
+gem 'html2slim'
+gem 'jquery-rails'
+gem 'popper_js'
+gem 'rails-i18n', '~> 5.1'
+gem 'redis-rails'
 gem 'slim-rails'
-gem "html2slim"
 gem 'sorcery'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'redis-rails'
-gem 'rails-i18n', '~> 5.1'
