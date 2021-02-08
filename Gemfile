@@ -66,4 +66,4 @@ gem 'redis-rails'
 gem 'slim-rails'
 gem 'sorcery'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
-gem 'carrierwave', '~> 2.0'
+gem 'carrierwave', '~> 2.1'
